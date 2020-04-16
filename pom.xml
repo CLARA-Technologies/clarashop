@@ -2,21 +2,31 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+
 	<groupId>com.clara.shop</groupId>
 	<artifactId>clarashop</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
+
 	<name>Clara Shop</name>
 	<url>http://maven.apache.org</url>
-	
+
 	<!-- Version Control -->
 	<properties>
 		<javaee.version>8.0.1</javaee.version>
 		<spring-version>4.3.6.RELEASE</spring-version>
-	
+
 	</properties>
-	
+
 	<dependencies>
+		<!-- Linking Backend Project- SHopadmin -->
+		<!-- <dependency>
+			<groupId>com.clara.admin</groupId>
+			<artifactId>shopadmin</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+ -->
+
 		<!-- JAVA EE API -->
 		<!-- https://mvnrepository.com/artifact/javax/javaee-api -->
 		<dependency>
